@@ -1,7 +1,7 @@
 module.exports = {
     user: 'postgres',
     password: '1234',
-    host: 'localhost',
+    host: 'postgres-db',
     database: 'impuls',
-    port: '5433'
+    port: '5432'
 };
