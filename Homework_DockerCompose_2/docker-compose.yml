@@ -1,0 +1,7 @@
+version: '3.9'
+services:
+  2048-game-server:
+    build: .
+    command: node server.js
+    ports: 
+      - 8080:8080
