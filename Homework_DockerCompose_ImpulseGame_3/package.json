@@ -1,0 +1,28 @@
+{
+  "name": "implusgames",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergoio0704/ImplusGames.git"
+  },
+  "author": "serega1986-16@mail.ru (Sergey Popkov)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergoio0704/ImplusGames/issues"
+  },
+  "homepage": "https://github.com/sergoio0704/ImplusGames#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.4",
+    "path": "^0.12.7",
+    "pg-promise": "^10.11.1"
+  }
+}

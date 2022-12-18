@@ -1,0 +1,113 @@
+.header
+    padding: 10px 20px
+    height: 70px
+    display: flex
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, .5)
+    z-index: 1
+    background: #fff
+    position: absolute
+    width: 100%
+
+.header-navigation
+    width: 100%
+    display: flex
+    align-items: center
+    justify-content: space-between
+
+.header-list
+    display: flex
+    align-items: center
+    list-style: none
+    margin-left: 20px
+
+.header-list-item
+    margin-left: 30px
+    font-weight: 500
+    
+.header-list-item-link
+    color: #000
+    &:hover
+        color: #ffc246
+        transition: all 0.4s
+
+
+.header-profile-wrapper
+    width: 100%
+    display: flex 
+    justify-content: flex-end
+
+.header-profile-logo
+    width: 40px
+    height: 40px
+
+.header-profile
+    cursor: pointer
+    display: flex 
+    align-items: center
+
+.header-dropdown
+    width: 150px
+    height: 100px
+    position: absolute
+    z-index: 1 
+    top: -500px
+    right: 20px
+    background: #6e368c
+    border-radius: 5px
+    transition: all 0.8s ease 1s
+
+.header-dropdown-visible 
+    top: 60px
+    transition: all 0.8s ease 1s
+    z-index: 5
+
+.header-dropdown-list
+    display: flex 
+    flex-direction: column
+    align-items: center
+
+.header-dropdown-item
+    margin-top: 10px
+    &:hover
+        text-decoration: underline
+
+.header-dropdown-link
+    color: #fff
+    font-weight: 700
+
+.header-profile-info
+    margin-right: 20px
+    display: flex
+    flex-direction: column
+    justify-content: center
+
+.header-profile-name
+    font-weight: 700
+
+.header-profile-email
+    font-size: 14px
+
+.header-profile-admin
+    display: flex 
+    align-items: center
+    margin-right: 10px
+    cursor: pointer
+    position: relative
+    &:hover .header-profile-admin-tooltip
+        visibility: visible
+
+.header-profile-admin-logo
+    width: 30px
+    height: 30px
+
+.header-profile-admin-tooltip
+    visibility: hidden
+    position: absolute
+    z-index: 1
+    background: #000
+    color: #fff
+    padding: 5px
+    border-radius: 7px
+    left: -50px
+    font-size: 14px
+

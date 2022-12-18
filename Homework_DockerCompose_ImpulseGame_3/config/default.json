@@ -1,0 +1,7 @@
+{
+    "port": 8089,
+    "jwtSecret": "b3e89f12c2bf095fa0b1174f2c49d03a00e4e4cc30e1497ad58a80fa437cccf3",
+    "fileStoragePath": "/opt/files",
+    "avatarStoragePath": "/opt/avatars/",
+    "avatarPrefix": "avatar"
+}
